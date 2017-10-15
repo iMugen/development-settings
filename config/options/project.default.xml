@@ -8,7 +8,7 @@
         <option name="projectSpecificProfile">
           <ProjectSpecificProfile>
             <option name="formatter" value="ECLIPSE" />
-            <option name="pathToConfigFileJava" value="C:/java-development/idea-metadata/code-style.xml" />
+            <option name="pathToConfigFileJava" value="$APPLICATION_CONFIG_DIR$/code-style.xml" />
             <option name="selectedJavaProfile" value="Code Style (Deolin)" />
           </ProjectSpecificProfile>
         </option>
@@ -37,9 +37,6 @@
           </MavenGeneralSettings>
         </option>
       </component>
-      <component name="MavenRunner">
-        <option name="jreName" value="1.8" />
-      </component>
       <component name="ProjectInspectionProfilesVisibleTreeState">
         <entry key="Project Default">
           <profile-state>
@@ -49,6 +46,9 @@
               </State>
               <State>
                 <id>SQL</id>
+              </State>
+              <State>
+                <id>Spelling</id>
               </State>
             </expanded-state>
             <selected-state>
@@ -60,11 +60,11 @@
         </entry>
       </component>
       <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="EclipseFormatter" />
+        <property name="last_opened_file_path" value="$APPLICATION_CONFIG_DIR$/code-style.xml" />
         <property name="project.structure.last.edited" value="Project" />
-        <property name="project.structure.proportion" value="0.0" />
+        <property name="project.structure.proportion" value="0.15" />
         <property name="project.structure.side.proportion" value="0.0" />
-        <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
-        <property name="last_opened_file_path" value="C:/java-development/idea-metadata/code-style.xml" />
       </component>
       <component name="SaveActionSettings">
         <option name="actions">
@@ -93,6 +93,7 @@
           </state>
           <state key="JdkListConfigurable.UI">
             <settings>
+              <last-edited>1.8</last-edited>
               <splitter-proportions>
                 <option name="proportions">
                   <list>

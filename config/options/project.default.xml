@@ -24,8 +24,6 @@
             <option name="processLiterals" value="true" />
             <option name="processComments" value="true" />
           </inspection_tool>
-          <inspection_tool class="SqlDialectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-          <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
         </profile>
         <version value="1.0" />
       </component>
@@ -36,6 +34,12 @@
             <option name="userSettingsFile" value="C:\java-development\apache-maven-3.5.0\conf\settings.xml" />
           </MavenGeneralSettings>
         </option>
+        <option name="importingSettings">
+          <MavenImportingSettings>
+            <option name="downloadDocsAutomatically" value="true" />
+            <option name="downloadSourcesAutomatically" value="true" />
+          </MavenImportingSettings>
+        </option>
       </component>
       <component name="ProjectInspectionProfilesVisibleTreeState">
         <entry key="Project Default">
@@ -45,25 +49,22 @@
                 <id />
               </State>
               <State>
-                <id>SQL</id>
-              </State>
-              <State>
                 <id>Spelling</id>
               </State>
             </expanded-state>
             <selected-state>
               <State>
-                <id>SqlDialectInspection</id>
+                <id>SpellCheckingInspection</id>
               </State>
             </selected-state>
           </profile-state>
         </entry>
       </component>
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="EclipseFormatter" />
+        <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
         <property name="last_opened_file_path" value="$APPLICATION_CONFIG_DIR$/code-style.xml" />
         <property name="project.structure.last.edited" value="Project" />
-        <property name="project.structure.proportion" value="0.15" />
+        <property name="project.structure.proportion" value="0.0" />
         <property name="project.structure.side.proportion" value="0.0" />
       </component>
       <component name="SaveActionSettings">
@@ -74,9 +75,6 @@
             <option value="reformat" />
           </set>
         </option>
-      </component>
-      <component name="VcsContentAnnotationSettings">
-        <option name="myLimit" value="2678400000" />
       </component>
       <component name="masterDetails">
         <states>
@@ -93,7 +91,6 @@
           </state>
           <state key="JdkListConfigurable.UI">
             <settings>
-              <last-edited>1.8</last-edited>
               <splitter-proportions>
                 <option name="proportions">
                   <list>

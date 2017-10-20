@@ -1,10 +1,10 @@
 <application>
   <component name="DimensionService">
-    <location key="#Browse_Repositories.0.0.1920.1080" x="543" y="86" />
-    <location key="#Plugins.0.0.1920.1080" x="555" y="89" />
-    <location key="FileChooserDialogImpl.0.0.1920.1080" x="538" y="277" />
-    <location key="SettingsEditor.0.0.1920.1080" x="687" y="79" />
+    <location key="#Browse_Repositories.0.0.1920.1080" x="832" y="69" />
+    <location key="#Plugins.0.0.1920.1080" x="844" y="72" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="743" y="186" />
+    <location key="SettingsEditor.0.0.1920.1080" x="395" y="134" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="684" y="297" />
-    <size key="SettingsEditor.0.0.1920.1080" width="1139" height="701" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1070" height="701" />
   </component>
 </application>

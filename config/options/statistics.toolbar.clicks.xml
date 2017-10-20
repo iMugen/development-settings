@@ -1,11 +1,8 @@
 <application>
   <component name="ToolbarClicksCollector">
     <counts>
-      <entry action="FileChooser.Refresh@FileChooserDialog" count="1" />
-      <entry action="com.intellij.application.options.ImportLayoutPanel$6@ToolbarDecorator" count="3" />
       <entry action="com.intellij.application.options.ImportLayoutPanel$7@ToolbarDecorator" count="2" />
-      <entry action="com.intellij.ide.plugins.PluginManagerMain$RefreshAction@PluginManager" count="1" />
-      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="30" />
+      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="12" />
     </counts>
   </component>
 </application>

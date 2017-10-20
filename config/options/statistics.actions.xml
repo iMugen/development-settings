@@ -1,11 +1,8 @@
 <application>
   <component name="ActionsCollector">
     <counts>
-      <entry action="$SelectAll" count="2" />
-      <entry action="EditorBackSpace" count="6" />
-      <entry action="EditorCopy" count="3" />
-      <entry action="EditorPaste" count="51" />
-      <entry action="FileChooser.Refresh" count="1" />
+      <entry action="EditorBackSpace" count="14" />
+      <entry action="EditorPaste" count="3" />
     </counts>
   </component>
 </application>

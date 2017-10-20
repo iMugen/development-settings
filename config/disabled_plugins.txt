@@ -7,6 +7,7 @@ Coverage
 DevKit
 Emma
 Geronimo
+Git4Idea
 GlassFish
 Heroku
 JBoss
@@ -17,6 +18,7 @@ Osmorc
 PerforceDirectPlugin
 Resin
 StrutsAssistant
+Subversion
 TFS
 TestNG-J
 WebSphere
@@ -58,4 +60,5 @@ cucumber-java
 hg4idea
 org.intellij.grails
 org.jetbrains.android
+org.jetbrains.plugins.github
 org.jetbrains.plugins.gradle

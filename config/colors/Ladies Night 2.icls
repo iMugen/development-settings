@@ -67,9 +67,7 @@
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="3a2323" />
-      </value>
+      <value />
     </option>
     <option name="Block comment">
       <value>
@@ -79,7 +77,6 @@
     <option name="CLASS_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="6ca3c9" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -304,7 +301,6 @@
       <value>
         <option name="FOREGROUND" value="e784a2" />
         <option name="BACKGROUND" value="21282d" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -360,7 +356,6 @@
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="fefffb" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
@@ -448,7 +443,8 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="2d6099" />
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="869b70" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -467,7 +463,7 @@
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
         <option name="EFFECT_COLOR" value="aeae80" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -515,6 +511,47 @@
     <option name="Instance property reference ID">
       <value>
         <option name="FOREGROUND" value="9876aa" />
+      </value>
+    </option>
+    <option name="JAVA_BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="7ecd9b" />
+      </value>
+    </option>
+    <option name="JAVA_DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="efc090" />
+      </value>
+    </option>
+    <option name="JAVA_DOC_MARKUP">
+      <value>
+        <option name="FOREGROUND" value="916c36" />
+      </value>
+    </option>
+    <option name="JAVA_DOC_TAG">
+      <value>
+        <option name="FOREGROUND" value="916c36" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JAVA_INVALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="b578b8" />
+      </value>
+    </option>
+    <option name="JAVA_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="7ecd9b" />
+      </value>
+    </option>
+    <option name="JAVA_STRING">
+      <value>
+        <option name="FOREGROUND" value="b578b8" />
+      </value>
+    </option>
+    <option name="JAVA_VALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="b578b8" />
       </value>
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
@@ -567,7 +604,7 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="e7b5e3" />
+        <option name="EFFECT_COLOR" value="aeae80" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -695,7 +732,7 @@
     </option>
     <option name="TYPO">
       <value>
-        <option name="EFFECT_COLOR" value="867f27" />
+        <option name="EFFECT_COLOR" value="aeae80" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>

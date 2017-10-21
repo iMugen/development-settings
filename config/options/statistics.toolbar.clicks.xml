@@ -2,6 +2,7 @@
   <component name="ToolbarClicksCollector">
     <counts>
       <entry action="com.intellij.application.options.ImportLayoutPanel$7@ToolbarDecorator" count="2" />
+      <entry action="com.intellij.application.options.schemes.AbstractSchemesPanel$ShowSchemesActionsListAction@NavBarToolbar" count="1" />
       <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="12" />
     </counts>
   </component>

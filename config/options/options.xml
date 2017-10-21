@@ -11,5 +11,7 @@
     <property name="ignore.ide.set.hidpi.mode" value="true" />
     <property name="selected.color.option.type" value="JAVA_STRING" />
     <property name="ColorChooser.RecentColors" value="0-208-208-255" />
+    <property name="export.settings.path" value="C:\java-development\git-repo\intellij-idea-config\theme\ladies-night-2pp.jar" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
   </component>
 </application>

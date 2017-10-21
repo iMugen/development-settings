@@ -9,5 +9,7 @@
     <property name="settings.code.style.selected.tab.JAVA" value="Imports" />
     <property name="settings.code.style.selected.tab.XML" value="Other" />
     <property name="ignore.ide.set.hidpi.mode" value="true" />
+    <property name="selected.color.option.type" value="JAVA_STRING" />
+    <property name="ColorChooser.RecentColors" value="0-208-208-255" />
   </component>
 </application>

@@ -61,7 +61,7 @@
         </entry>
       </component>
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+        <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
         <property name="last_opened_file_path" value="$APPLICATION_CONFIG_DIR$/code-style.xml" />
         <property name="project.structure.last.edited" value="Project" />
         <property name="project.structure.proportion" value="0.0" />

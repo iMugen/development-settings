@@ -294,7 +294,7 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="b578b8" />
+        <option name="FOREGROUND" value="d0d0" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
@@ -325,7 +325,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="b578b8" />
+        <option name="FOREGROUND" value="d0d0" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -366,7 +366,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="b578b8" />
+        <option name="FOREGROUND" value="d0d0" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -381,7 +381,7 @@
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="b578b8" />
+        <option name="FOREGROUND" value="d0d0" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -534,24 +534,9 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JAVA_INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="b578b8" />
-      </value>
-    </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="7ecd9b" />
-      </value>
-    </option>
-    <option name="JAVA_STRING">
-      <value>
-        <option name="FOREGROUND" value="b578b8" />
-      </value>
-    </option>
-    <option name="JAVA_VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="b578b8" />
       </value>
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">

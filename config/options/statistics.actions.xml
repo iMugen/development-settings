@@ -4,7 +4,7 @@
       <entry action="$SelectAll" count="1" />
       <entry action="EditorBackSpace" count="16" />
       <entry action="EditorCopy" count="1" />
-      <entry action="EditorPaste" count="8" />
+      <entry action="EditorPaste" count="9" />
     </counts>
   </component>
 </application>

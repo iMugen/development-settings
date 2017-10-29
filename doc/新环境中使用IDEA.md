@@ -31,4 +31,4 @@
 
 ---
 
-下一篇：[基础配置](https://github.com/spldeolin/intellij-idea-config/blob/master/doc/%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.md)
+下一篇：[功能集成](https://github.com/spldeolin/intellij-idea-config/blob/master/doc/%e5%8a%9f%e8%83%bd%e9%9b%86%e6%88%90.md)

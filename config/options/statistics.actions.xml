@@ -1,10 +1,10 @@
 <application>
   <component name="ActionsCollector">
     <counts>
-      <entry action="$SelectAll" count="1" />
-      <entry action="EditorBackSpace" count="16" />
+      <entry action="$SelectAll" count="2" />
+      <entry action="EditorBackSpace" count="11" />
       <entry action="EditorCopy" count="1" />
-      <entry action="EditorPaste" count="9" />
+      <entry action="EditorPaste" count="49" />
     </counts>
   </component>
 </application>

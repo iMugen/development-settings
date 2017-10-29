@@ -1,11 +1,4 @@
-<scheme name="Ladies Night 2 ++" version="142" parent_scheme="Default">
-  <metaInfo>
-    <property name="created">2017-10-21T09:43:42</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2017.2.5.0.0</property>
-    <property name="modified">2017-10-21T09:43:42</property>
-    <property name="originalScheme">Ladies Night 2</property>
-  </metaInfo>
+<scheme name="Ladies Night 2" version="142" parent_scheme="Default">
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="ff00" />
@@ -214,7 +207,6 @@
     <option name="DEFAULT_CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="85b5c7" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -363,11 +355,13 @@
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="fefffb" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="e0e2e4" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -399,6 +393,7 @@
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="e0e2e4" />
         <option name="EFFECT_COLOR" value="e0e2e4" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -426,9 +421,6 @@
         <option name="BACKGROUND" value="385570" />
         <option name="ERROR_STRIPE_COLOR" value="43698d" />
       </value>
-    </option>
-    <option name="DOC_COMMENT_TAG_VALUE">
-      <value />
     </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
@@ -523,22 +515,6 @@
     <option name="JAVA_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="7ecd9b" />
-      </value>
-    </option>
-    <option name="JAVA_DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="efc090" />
-      </value>
-    </option>
-    <option name="JAVA_DOC_MARKUP">
-      <value>
-        <option name="FOREGROUND" value="916c36" />
-      </value>
-    </option>
-    <option name="JAVA_DOC_TAG">
-      <value>
-        <option name="FOREGROUND" value="916c36" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JAVA_LINE_COMMENT">
@@ -750,7 +726,6 @@
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffff00" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="ffff00" />
         <option name="ERROR_STRIPE_COLOR" value="ffff00" />
       </value>
@@ -768,6 +743,9 @@
         <option name="ERROR_STRIPE_COLOR" value="ff0000" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
+    </option>
+    <option name="XML_PROLOGUE">
+      <value />
     </option>
   </attributes>
 </scheme>

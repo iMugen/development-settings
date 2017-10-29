@@ -1,0 +1,15 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="Compare.Selected">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="alt f5" />
+  </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="SaveAll" />
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+</keymap>

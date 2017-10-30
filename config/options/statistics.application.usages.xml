@@ -20,12 +20,12 @@
       <entry feature="ide.settings.Maven" count="1" />
       <entry feature="ide.settings.Plugins" count="1" />
       <entry feature="ide.settings.XML" count="2" />
-      <entry feature="ideaapp.started" count="7" />
-      <entry feature="welcome.screen.WelcomeScreen.Configure" count="12" />
+      <entry feature="ideaapp.started" count="8" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="13" />
       <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="1" />
       <entry feature="welcome.screen.WelcomeScreen.Plugins" count="1" />
       <entry feature="welcome.screen.WelcomeScreen.Settings" count="9" />
-      <entry feature="welcome.screen.null" count="1" />
+      <entry feature="welcome.screen.null" count="2" />
     </counts>
   </component>
 </application>

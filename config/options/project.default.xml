@@ -32,8 +32,8 @@
       <component name="MavenImportPreferences">
         <option name="generalSettings">
           <MavenGeneralSettings>
-            <option name="mavenHome" value="C:/java-development/apache-maven-3.5.0" />
-            <option name="userSettingsFile" value="C:\java-development\apache-maven-3.5.0\conf\settings.xml" />
+            <option name="mavenHome" value="C:/java-development/apache-maven-3.5.2" />
+            <option name="userSettingsFile" value="C:\java-development\apache-maven-3.5.2\conf\settings.xml" />
           </MavenGeneralSettings>
         </option>
         <option name="importingSettings">
@@ -63,8 +63,8 @@
         </entry>
       </component>
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Debugger" />
-        <property name="last_opened_file_path" value="C:/java-development/min-git-2.14.1-64-bit/cmd/git.exe" />
+        <property name="settings.editor.selected.configurable" value="vcs.Git" />
+        <property name="last_opened_file_path" value="C:/java-development/min-git-2.15.0-64-bit/cmd/git.exe" />
         <property name="project.structure.last.edited" value="Project" />
         <property name="project.structure.proportion" value="0.0" />
         <property name="project.structure.side.proportion" value="0.0" />

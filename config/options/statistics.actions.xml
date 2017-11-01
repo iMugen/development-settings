@@ -2,9 +2,9 @@
   <component name="ActionsCollector">
     <counts>
       <entry action="$SelectAll" count="2" />
-      <entry action="EditorBackSpace" count="11" />
+      <entry action="EditorBackSpace" count="2" />
       <entry action="EditorCopy" count="1" />
-      <entry action="EditorPaste" count="49" />
+      <entry action="EditorPaste" count="44" />
     </counts>
   </component>
 </application>

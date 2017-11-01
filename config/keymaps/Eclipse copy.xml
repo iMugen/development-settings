@@ -1,8 +1,8 @@
-<keymap version="1" name="Default copy" parent="$default">
+<keymap version="1" name="Eclipse copy" parent="Eclipse">
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
-  <action id="CompileDirty">
+  <action id="CompileProject">
     <keyboard-shortcut first-keystroke="alt f5" />
   </action>
   <action id="EvaluateExpression">

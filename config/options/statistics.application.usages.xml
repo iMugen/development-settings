@@ -5,6 +5,7 @@
       <entry feature="ide.settings.Auto_Import" count="1" />
       <entry feature="ide.settings.Code_Folding" count="1" />
       <entry feature="ide.settings.Code_Style" count="2" />
+      <entry feature="ide.settings.Color_Scheme" count="1" />
       <entry feature="ide.settings.Color_Scheme_Font" count="1" />
       <entry feature="ide.settings.Data_Views" count="1" />
       <entry feature="ide.settings.Debugger" count="1" />
@@ -20,11 +21,11 @@
       <entry feature="ide.settings.Maven" count="2" />
       <entry feature="ide.settings.Plugins" count="1" />
       <entry feature="ide.settings.XML" count="2" />
-      <entry feature="ideaapp.started" count="15" />
-      <entry feature="welcome.screen.WelcomeScreen.Configure" count="21" />
-      <entry feature="welcome.screen.WelcomeScreen.Configure.Export" count="1" />
+      <entry feature="ideaapp.started" count="16" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="23" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure.Export" count="2" />
       <entry feature="welcome.screen.WelcomeScreen.Plugins" count="1" />
-      <entry feature="welcome.screen.WelcomeScreen.Settings" count="15" />
+      <entry feature="welcome.screen.WelcomeScreen.Settings" count="16" />
       <entry feature="welcome.screen.null" count="1" />
     </counts>
   </component>

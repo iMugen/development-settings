@@ -40,6 +40,7 @@
           <MavenImportingSettings>
             <option name="downloadDocsAutomatically" value="true" />
             <option name="downloadSourcesAutomatically" value="true" />
+            <option name="importAutomatically" value="true" />
           </MavenImportingSettings>
         </option>
       </component>
@@ -63,7 +64,7 @@
         </entry>
       </component>
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+        <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
         <property name="last_opened_file_path" value="C:/java-development/min-git-2.15.0-64-bit/cmd/git.exe" />
         <property name="project.structure.last.edited" value="Project" />
         <property name="project.structure.proportion" value="0.0" />

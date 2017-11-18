@@ -1,12 +1,15 @@
-<scheme name="Default ++" version="142" parent_scheme="Default">
+<scheme name="spllight" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2017-11-18T10:52:49</property>
+    <property name="created">2017-11-18T11:07:01</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.6.0.0</property>
-    <property name="modified">2017-11-18T10:58:57</property>
-    <property name="originalScheme">_@user_Default</property>
+    <property name="modified">2017-11-18T11:08:36</property>
+    <property name="originalScheme">Default ++</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
+  <option name="EDITOR_FONT_SIZE" value="18" />
+  <option name="EDITOR_FONT_NAME" value="YaHei Consolas Hybrid" />
   <colors>
     <option name="CARET_ROW_COLOR" value="e8f2fe" />
     <option name="INDENT_GUIDE" value="ffffff" />

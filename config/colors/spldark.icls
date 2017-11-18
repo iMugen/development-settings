@@ -1,11 +1,12 @@
-<scheme name="Ladies Night 2 ++" version="142" parent_scheme="Default">
+<scheme name="spldark" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2017-11-17T15:41:38</property>
+    <property name="created">2017-11-18T11:07:10</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.6.0.0</property>
-    <property name="modified">2017-11-17T15:41:41</property>
-    <property name="originalScheme">Ladies Night 2</property>
+    <property name="modified">2017-11-18T11:08:16</property>
+    <property name="originalScheme">Ladies Night 2 ++</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.1" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="ff00" />

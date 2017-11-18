@@ -11,7 +11,7 @@
       <entry feature="ide.settings.Debugger" count="1" />
       <entry feature="ide.settings.Eclipse_Code_Formatter" count="1" />
       <entry feature="ide.settings.File_Encodings" count="1" />
-      <entry feature="ide.settings.Font" count="2" />
+      <entry feature="ide.settings.Font" count="3" />
       <entry feature="ide.settings.General" count="11" />
       <entry feature="ide.settings.Importing" count="2" />
       <entry feature="ide.settings.Inspections" count="2" />
@@ -21,11 +21,11 @@
       <entry feature="ide.settings.Maven" count="2" />
       <entry feature="ide.settings.Plugins" count="1" />
       <entry feature="ide.settings.XML" count="2" />
-      <entry feature="ideaapp.started" count="17" />
-      <entry feature="welcome.screen.WelcomeScreen.Configure" count="24" />
+      <entry feature="ideaapp.started" count="18" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="25" />
       <entry feature="welcome.screen.WelcomeScreen.Configure.Export" count="2" />
       <entry feature="welcome.screen.WelcomeScreen.Plugins" count="1" />
-      <entry feature="welcome.screen.WelcomeScreen.Settings" count="17" />
+      <entry feature="welcome.screen.WelcomeScreen.Settings" count="18" />
       <entry feature="welcome.screen.null" count="1" />
     </counts>
   </component>

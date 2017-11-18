@@ -4,7 +4,7 @@
     <property name="created">2017-11-18T11:07:01</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.6.0.0</property>
-    <property name="modified">2017-11-18T11:08:36</property>
+    <property name="modified">2017-11-18T12:53:25</property>
     <property name="originalScheme">Default ++</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
@@ -59,6 +59,9 @@
         <option name="FOREGROUND" value="7f7f9f" />
       </value>
     </option>
+    <option name="DEFAULT_ENTITY">
+      <value />
+    </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="c0" />
@@ -71,8 +74,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="7f0074" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="3f7f7f" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -100,6 +102,9 @@
       <value>
         <option name="FOREGROUND" value="942923" />
       </value>
+    </option>
+    <option name="DEFAULT_TAG">
+      <value />
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
@@ -209,6 +214,31 @@
         <option name="EFFECT_COLOR" value="ff0080" />
         <option name="ERROR_STRIPE_COLOR" value="ff0080" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="7f007f" />
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="2a00ff" />
+      </value>
+    </option>
+    <option name="XML_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="3f5fbf" />
+      </value>
+    </option>
+    <option name="XML_NS_PREFIX">
+      <value>
+        <option name="FOREGROUND" value="7f007f" />
+      </value>
+    </option>
+    <option name="XML_TAG">
+      <value>
+        <option name="FOREGROUND" value="3f7f7f" />
       </value>
     </option>
   </attributes>

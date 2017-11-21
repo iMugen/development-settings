@@ -10,8 +10,8 @@
     <property name="settings.code.style.selected.tab.JAVA" value="Imports" />
     <property name="settings.code.style.selected.tab.XML" value="Other" />
     <property name="KEYMAP" value="History&#10;Compare wit&#10;Evaluate Expression&#10;Build Project" />
-    <property name="selected.color.option.type" value="EXECUTIONPOINT_ATTRIBUTES" />
-    <property name="ColorChooser.RecentColors" value="255-255-0-255,,,127-158-199-255,,,0-128-255-255,,,70-70-70-255,,,0-255-0-255,,,0-0-0-255,,,224-226-228-255,,,255-0-0-255,,,174-174-128-255,,,0-208-208-255,,,126-205-155-255,,,239-192-144-255,,,145-108-54-255,,,134-155-112-255" />
+    <property name="selected.color.option.type" value="JAVA_KEYWORD" />
+    <property name="ColorChooser.RecentColors" value="255-255-0-255,,,127-158-199-255,,,0-128-255-255,,,70-70-70-255,,,0-255-0-255,,,0-0-0-255,,,224-226-228-255,,,255-0-0-255,,,174-174-128-255,,,0-208-208-255,,,126-205-155-255,,,239-192-144-255,,,145-108-54-255,,,134-155-112-255,,,127-0-85-255" />
     <property name="export.settings.path" value="C:\java-development\git-repo\intellij-idea-config\theme\ladies-night-2pp.jar" />
   </component>
 </application>

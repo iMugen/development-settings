@@ -4,9 +4,9 @@
 
 ### IntelliJ IDEA
 
-	Version: 2017.2.5<br>
-	Build: 172.4343.14<br>
-	Released: September 26, 2017<br>
+	Version: 2017.2.6<br>
+	Build: 172.4574.11<br>
+	Released: November 14, 2017<br>
 
 ### 克隆地址
 
@@ -27,4 +27,4 @@
 
 ---
 
-*Deolin 19:42:45 Oct 29,2017* 
+*Deolin 13:25:06 Nov 25,2017*

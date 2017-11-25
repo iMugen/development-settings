@@ -8,9 +8,6 @@
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
-  <action id="QuickJavaDoc">
-    <mouse-shortcut keystroke="alt button3" />
-  </action>
   <action id="SaveAll" />
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="alt a" />

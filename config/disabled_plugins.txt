@@ -59,4 +59,5 @@ cucumber-java
 hg4idea
 org.intellij.grails
 org.jetbrains.android
+org.jetbrains.plugins.github
 org.jetbrains.plugins.gradle

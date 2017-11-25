@@ -1,9 +1,6 @@
 <application>
   <component name="DimensionService">
-    <location key="#Browse_Repositories.0.0.1920.1080@120dpi" x="541" y="97" />
-    <location key="#Plugins.0.0.1920.1080@120dpi" x="388" y="70" />
-    <location key="FileChooserDialogImpl.0.0.1920.1080@120dpi" x="691" y="147" />
-    <location key="SettingsEditor.0.0.1920.1080@120dpi" x="314" y="0" />
-    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080@120dpi" x="640" y="287" />
+    <location key="SettingsEditor.0.0.1920.1080" x="445" y="96" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="745" y="276" />
   </component>
 </application>

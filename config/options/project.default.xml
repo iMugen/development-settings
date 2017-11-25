@@ -4,15 +4,6 @@
       <component name="CodeInsightWorkspaceSettings">
         <option name="optimizeImportsOnTheFly" value="true" />
       </component>
-      <component name="EclipseCodeFormatterProjectSettings">
-        <option name="projectSpecificProfile">
-          <ProjectSpecificProfile>
-            <option name="formatter" value="ECLIPSE" />
-            <option name="pathToConfigFileJava" value="$APPLICATION_CONFIG_DIR$/code-style.xml" />
-            <option name="selectedJavaProfile" value="Code Style (Deolin)" />
-          </ProjectSpecificProfile>
-        </option>
-      </component>
       <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
         <file url="PROJECT" charset="UTF-8" />
       </component>
@@ -52,7 +43,73 @@
                 <id />
               </State>
               <State>
+                <id>Abstraction issuesJava</id>
+              </State>
+              <State>
+                <id>CSS</id>
+              </State>
+              <State>
+                <id>Code style issuesJava</id>
+              </State>
+              <State>
+                <id>ECMAScript 6 migration aidsJavaScript</id>
+              </State>
+              <State>
+                <id>GeneralJavaScript</id>
+              </State>
+              <State>
+                <id>Groovy</id>
+              </State>
+              <State>
+                <id>ImportsJava</id>
+              </State>
+              <State>
+                <id>Inheritance issuesJava</id>
+              </State>
+              <State>
+                <id>Invalid elementsCSS</id>
+              </State>
+              <State>
+                <id>JSP Inspections</id>
+              </State>
+              <State>
+                <id>Java</id>
+              </State>
+              <State>
+                <id>JavaFX</id>
+              </State>
+              <State>
+                <id>JavaScript</id>
+              </State>
+              <State>
+                <id>Kotlin</id>
+              </State>
+              <State>
+                <id>Less</id>
+              </State>
+              <State>
+                <id>Logging issuesJava</id>
+              </State>
+              <State>
+                <id>Potentially confusing code constructsGroovy</id>
+              </State>
+              <State>
+                <id>Redundant constructsKotlin</id>
+              </State>
+              <State>
                 <id>SQL</id>
+              </State>
+              <State>
+                <id>Sass/SCSS</id>
+              </State>
+              <State>
+                <id>Spelling</id>
+              </State>
+              <State>
+                <id>TypeScript</id>
+              </State>
+              <State>
+                <id>Verbose or redundant code constructsJava</id>
               </State>
             </expanded-state>
             <selected-state>
@@ -65,10 +122,10 @@
       </component>
       <component name="PropertiesComponent">
         <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-        <property name="last_opened_file_path" value="C:/java-development/min-git-2.15.0-64-bit/cmd/git.exe" />
         <property name="project.structure.last.edited" value="Project" />
         <property name="project.structure.proportion" value="0.0" />
         <property name="project.structure.side.proportion" value="0.0" />
+        <property name="last_opened_file_path" value="C:/java-development/min-git-2.15.0-64-bit/cmd/git.exe" />
       </component>
       <component name="VcsContentAnnotationSettings">
         <option name="myLimit" value="2678400000" />
@@ -88,7 +145,6 @@
           </state>
           <state key="JdkListConfigurable.UI">
             <settings>
-              <last-edited>1.8</last-edited>
               <splitter-proportions>
                 <option name="proportions">
                   <list>

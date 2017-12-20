@@ -1,6 +1,5 @@
 AntSupport
 CVS
-ClearcasePlugin
 CloudBees
 CloudFoundry
 Coverage

@@ -1,4 +1,4 @@
-<keymap version="1" name="Eclipse copy" parent="Eclipse">
+<keymap version="1" name="Custom Keymap" parent="Eclipse">
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>

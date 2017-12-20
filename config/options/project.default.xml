@@ -7,6 +7,9 @@
       <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
         <file url="PROJECT" charset="UTF-8" />
       </component>
+      <component name="Git.Settings">
+        <option name="ROOT_SYNC" value="DONT_SYNC" />
+      </component>
       <component name="InspectionProjectProfileManager">
         <profile version="1.0">
           <option name="myName" value="Project Default" />
@@ -15,8 +18,18 @@
             <option name="processLiterals" value="true" />
             <option name="processComments" value="true" />
           </inspection_tool>
-          <inspection_tool class="SqlDialectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-          <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="unused" enabled="false" level="WARNING" enabled_by_default="false">
+            <option name="LOCAL_VARIABLE" value="true" />
+            <option name="FIELD" value="true" />
+            <option name="METHOD" value="true" />
+            <option name="CLASS" value="true" />
+            <option name="PARAMETER" value="true" />
+            <option name="REPORT_PARAMETER_FOR_PUBLIC_METHODS" value="true" />
+            <option name="ADD_MAINS_TO_ENTRIES" value="true" />
+            <option name="ADD_APPLET_TO_ENTRIES" value="true" />
+            <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
+            <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
+          </inspection_tool>
         </profile>
         <version value="1.0" />
       </component>
@@ -35,6 +48,9 @@
           </MavenImportingSettings>
         </option>
       </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="Deolin" />
+      </component>
       <component name="ProjectInspectionProfilesVisibleTreeState">
         <entry key="Project Default">
           <profile-state>
@@ -43,16 +59,40 @@
                 <id />
               </State>
               <State>
-                <id>Abstraction issuesJava</id>
-              </State>
-              <State>
                 <id>CSS</id>
               </State>
               <State>
-                <id>Code style issuesJava</id>
+                <id>Class structureJava</id>
               </State>
               <State>
-                <id>ECMAScript 6 migration aidsJavaScript</id>
+                <id>CoffeeScript</id>
+              </State>
+              <State>
+                <id>Control flow issuesJavaScript</id>
+              </State>
+              <State>
+                <id>Cucumber</id>
+              </State>
+              <State>
+                <id>Data flow issuesGroovy</id>
+              </State>
+              <State>
+                <id>Declaration redundancyGroovy</id>
+              </State>
+              <State>
+                <id>Declaration redundancyJava</id>
+              </State>
+              <State>
+                <id>Error handlingGroovy</id>
+              </State>
+              <State>
+                <id>Error handlingJava</id>
+              </State>
+              <State>
+                <id>Error handlingJavaScript</id>
+              </State>
+              <State>
+                <id>GeneralCoffeeScript</id>
               </State>
               <State>
                 <id>GeneralJavaScript</id>
@@ -62,15 +102,6 @@
               </State>
               <State>
                 <id>ImportsJava</id>
-              </State>
-              <State>
-                <id>Inheritance issuesJava</id>
-              </State>
-              <State>
-                <id>Invalid elementsCSS</id>
-              </State>
-              <State>
-                <id>JSP Inspections</id>
               </State>
               <State>
                 <id>Java</id>
@@ -85,13 +116,16 @@
                 <id>Kotlin</id>
               </State>
               <State>
-                <id>Less</id>
+                <id>Probable bugsJava</id>
               </State>
               <State>
-                <id>Logging issuesJava</id>
+                <id>Probable bugsKotlin</id>
               </State>
               <State>
-                <id>Potentially confusing code constructsGroovy</id>
+                <id>Properties Files</id>
+              </State>
+              <State>
+                <id>RELAX NG</id>
               </State>
               <State>
                 <id>Redundant constructsKotlin</id>
@@ -100,31 +134,26 @@
                 <id>SQL</id>
               </State>
               <State>
-                <id>Sass/SCSS</id>
+                <id>XML</id>
               </State>
               <State>
-                <id>Spelling</id>
-              </State>
-              <State>
-                <id>TypeScript</id>
-              </State>
-              <State>
-                <id>Verbose or redundant code constructsJava</id>
+                <id>XSLT</id>
               </State>
             </expanded-state>
             <selected-state>
               <State>
-                <id>SqlDialectInspection</id>
+                <id>unused</id>
               </State>
             </selected-state>
           </profile-state>
         </entry>
       </component>
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
         <property name="project.structure.last.edited" value="Project" />
         <property name="project.structure.proportion" value="0.0" />
         <property name="project.structure.side.proportion" value="0.0" />
+        <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
         <property name="last_opened_file_path" value="C:/java-development/min-git-2.15.0-64-bit/cmd/git.exe" />
       </component>
       <component name="VcsContentAnnotationSettings">

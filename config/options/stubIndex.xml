@@ -47,6 +47,7 @@
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex" />
+        <option value="markdown.header" />
         <option value="gr.anonymous.class" />
         <option value="gr.class.super" />
         <option value="gr.script.class" />
@@ -69,12 +70,12 @@
         <option value="angularjs.symbol.index" />
         <option value="angularjs.filter.index" />
         <option value="angularjs.module.index" />
-        <option value="angularjs.decorators.index" />
         <option value="angularjs.controller.index" />
         <option value="angularjs.directives.doc.index" />
         <option value="angularjs.directives.index" />
         <option value="js.gcl.modules" />
         <option value="js.nonglobal.symbol.index" />
+        <option value="ts.local.classes" />
         <option value="es6.assignment.index" />
         <option value="js.exported.index" />
         <option value="js.global.symbol.index" />

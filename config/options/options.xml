@@ -1,7 +1,7 @@
 <application>
   <component name="PropertiesComponent">
     <property name="installed.kotlin.plugin.version" value="1.2.0-release-IJ2017.3-1" />
-    <property name="file.chooser.recent.files" value="C:/java-development/apache-maven-3.5.2/conf/settings.xml&#10;C:/java-development/apache-maven-3.5.2&#10;C:/java-development/min-git-2.15.0-64-bit/cmd/git.exe&#10;C:/Program Files/Java/jdk1.8.0_152" />
+    <property name="file.chooser.recent.files" value="C:/java-development/min-git-2.15.1.2-64-bit/cmd/git.exe&#10;C:/java-development/apache-maven-3.5.2/conf/settings.xml&#10;C:/java-development/apache-maven-3.5.2&#10;C:/java-development/min-git-2.15.0-64-bit/cmd/git.exe&#10;C:/Program Files/Java/jdk1.8.0_152" />
     <property name="INSPECTION_FILTER_HISTORY" value="unused" />
     <property name="typescript.show.auto.import" value="true" />
     <property name="es6.show.auto.import" value="true" />

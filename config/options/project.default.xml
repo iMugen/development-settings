@@ -31,6 +31,10 @@
             <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
           </inspection_tool>
         </profile>
+        <option name="projectProfile" value="Custom Inspection" />
+        <option name="useProjectProfile" value="false" />
+        <option name="PROJECT_PROFILE" value="Custom Inspection" />
+        <option name="USE_PROJECT_PROFILE" value="false" />
         <version value="1.0" />
       </component>
       <component name="MavenImportPreferences">

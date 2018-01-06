@@ -1,6 +1,6 @@
 <keymap version="1" name="Custom Keymap" parent="Eclipse">
   <action id="Compare.Selected">
-    <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="CompileProject">
     <keyboard-shortcut first-keystroke="alt f5" />
@@ -8,8 +8,8 @@
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
-  <action id="SaveAll" />
-  <action id="Vcs.ShowTabbedFileHistory">
-    <keyboard-shortcut first-keystroke="alt a" />
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="SaveAll" />
 </keymap>

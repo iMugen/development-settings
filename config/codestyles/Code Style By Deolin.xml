@@ -22,6 +22,7 @@
     <option name="SPACE_AFTER_CLOSING_ANGLE_BRACKET_IN_TYPE_ARGUMENT" value="true" />
   </JavaCodeStyleSettings>
   <codeStyleSettings language="JAVA">
+    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="0" />
     <option name="BLANK_LINES_AROUND_FIELD" value="1" />
     <option name="BLANK_LINES_AROUND_FIELD_IN_INTERFACE" value="1" />
     <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />

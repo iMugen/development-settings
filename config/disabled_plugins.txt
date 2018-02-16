@@ -1,5 +1,6 @@
 AntSupport
 CVS
+ClearcasePlugin
 CloudBees
 CloudFoundry
 Coverage
@@ -11,6 +12,7 @@ Heroku
 JBoss
 JSR45Plugin
 Java EE: Web Services (JAX-WS)
+Jetty
 OpenShift
 Osmorc
 PerforceDirectPlugin

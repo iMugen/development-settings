@@ -1,8 +1,8 @@
 <application>
   <component name="CodeStyleSettingsManager">
     <option name="PER_PROJECT_SETTINGS">
-      <value version="173" />
+      <value />
     </option>
-    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Custom Code Style" />
+    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Code Style By Deolin" />
   </component>
 </application>

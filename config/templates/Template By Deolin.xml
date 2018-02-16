@@ -1,0 +1,69 @@
+<templateSet group="Template By Deolin">
+  <template name="p" value="System.out.println($END$);" description="System.out.println" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fi" value="for (int i = 0; i &lt; $VAR$; i++) {&#10;    $END$&#10;}" description="for (int i = 0; i &lt; users.size(); i++) {}" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="main" value="public static void main(String[] args) {&#10;    $END$&#10;}" description="public static void main" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="l" value="List&lt;$VAR$&gt; $V$ = new ArrayList&lt;&gt;();&#10;$END$" description="List" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="V" expression="decapitalize(VAR)&#9;" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sb" value="StringBuilder sb = new StringBuilder(400);&#10;$END$" description="StringBuilder" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="m" value="Map&lt;String, $VAR1$&gt; $VAR2$ = new HashMap&lt;&gt;();&#10;$END$" description="Map" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="if ($VAR1$) {&#10;    throw new ServiceException(&quot;$VAR2$&quot;);&#10;}&#10;$END$" description="if () {throw new ServiceException(&quot;&quot;);}" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sa" value="sb.append($VAR1$);&#10;$END$" description="sb.append()" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="v" value="&quot;$VAR$&quot;" description="粘贴为字符串，转义" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="escapeString(clipboard()）" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="i" value="log.info($VAR$);&#10;$END$" description="log.info" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="a" value="@Autowired&#10;private $VAR$ $v$;&#10;&#10;$END$" description="@Autowired" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="v" expression="decapitalize(VAR)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

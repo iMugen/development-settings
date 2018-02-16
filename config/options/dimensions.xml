@@ -1,9 +1,8 @@
 <application>
   <component name="DimensionService">
-    <location key="FileChooserDialogImpl.0.0.1920.1080" x="743" y="193" />
-    <location key="SettingsEditor.0.0.1920.1080" x="163" y="166" />
-    <location key="#Browse_Repositories.0.0.1920.1080" x="264" y="176" />
-    <location key="#Plugins.0.0.1920.1080" x="555" y="97" />
-    <location key="SettingsEditor.0.0.1920.1080@120dpi" x="312" y="9" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080@144dpi" x="640" y="151" />
+    <location key="SettingsEditor.0.0.1920.1080@144dpi" x="277" y="0" />
+    <location key="#Browse_Repositories.0.0.1920.1080@144dpi" x="539" y="116" />
+    <location key="#Plugins.0.0.1920.1080@144dpi" x="551" y="117" />
   </component>
 </application>

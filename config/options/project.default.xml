@@ -7,33 +7,10 @@
       <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
         <file url="PROJECT" charset="UTF-8" />
       </component>
-      <component name="Git.Settings">
-        <option name="ROOT_SYNC" value="DONT_SYNC" />
-      </component>
       <component name="InspectionProjectProfileManager">
-        <profile version="1.0">
-          <option name="myName" value="Project Default" />
-          <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
-            <option name="processCode" value="true" />
-            <option name="processLiterals" value="true" />
-            <option name="processComments" value="true" />
-          </inspection_tool>
-          <inspection_tool class="unused" enabled="false" level="WARNING" enabled_by_default="false">
-            <option name="LOCAL_VARIABLE" value="true" />
-            <option name="FIELD" value="true" />
-            <option name="METHOD" value="true" />
-            <option name="CLASS" value="true" />
-            <option name="PARAMETER" value="true" />
-            <option name="REPORT_PARAMETER_FOR_PUBLIC_METHODS" value="true" />
-            <option name="ADD_MAINS_TO_ENTRIES" value="true" />
-            <option name="ADD_APPLET_TO_ENTRIES" value="true" />
-            <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
-            <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
-          </inspection_tool>
-        </profile>
-        <option name="projectProfile" value="Custom Inspection" />
+        <option name="projectProfile" value="Inspection By Deolin" />
         <option name="useProjectProfile" value="false" />
-        <option name="PROJECT_PROFILE" value="Custom Inspection" />
+        <option name="PROJECT_PROFILE" value="Inspection By Deolin" />
         <option name="USE_PROJECT_PROFILE" value="false" />
         <version value="1.0" />
       </component>
@@ -52,8 +29,11 @@
           </MavenImportingSettings>
         </option>
       </component>
+      <component name="MavenRunner">
+        <option name="skipTests" value="true" />
+      </component>
       <component name="ProjectDictionaryState">
-        <dictionary name="Deolin" />
+        <dictionary name="splen" />
       </component>
       <component name="ProjectInspectionProfilesVisibleTreeState">
         <entry key="Project Default">
@@ -62,91 +42,10 @@
               <State>
                 <id />
               </State>
-              <State>
-                <id>CSS</id>
-              </State>
-              <State>
-                <id>Class structureJava</id>
-              </State>
-              <State>
-                <id>CoffeeScript</id>
-              </State>
-              <State>
-                <id>Control flow issuesJavaScript</id>
-              </State>
-              <State>
-                <id>Cucumber</id>
-              </State>
-              <State>
-                <id>Data flow issuesGroovy</id>
-              </State>
-              <State>
-                <id>Declaration redundancyGroovy</id>
-              </State>
-              <State>
-                <id>Declaration redundancyJava</id>
-              </State>
-              <State>
-                <id>Error handlingGroovy</id>
-              </State>
-              <State>
-                <id>Error handlingJava</id>
-              </State>
-              <State>
-                <id>Error handlingJavaScript</id>
-              </State>
-              <State>
-                <id>GeneralCoffeeScript</id>
-              </State>
-              <State>
-                <id>GeneralJavaScript</id>
-              </State>
-              <State>
-                <id>Groovy</id>
-              </State>
-              <State>
-                <id>ImportsJava</id>
-              </State>
-              <State>
-                <id>Java</id>
-              </State>
-              <State>
-                <id>JavaFX</id>
-              </State>
-              <State>
-                <id>JavaScript</id>
-              </State>
-              <State>
-                <id>Kotlin</id>
-              </State>
-              <State>
-                <id>Probable bugsJava</id>
-              </State>
-              <State>
-                <id>Probable bugsKotlin</id>
-              </State>
-              <State>
-                <id>Properties Files</id>
-              </State>
-              <State>
-                <id>RELAX NG</id>
-              </State>
-              <State>
-                <id>Redundant constructsKotlin</id>
-              </State>
-              <State>
-                <id>SQL</id>
-              </State>
-              <State>
-                <id>XML</id>
-              </State>
-              <State>
-                <id>XSLT</id>
-              </State>
             </expanded-state>
             <selected-state>
               <State>
-                <id>unused</id>
+                <id>AngularJS</id>
               </State>
             </selected-state>
           </profile-state>
@@ -155,7 +54,7 @@
       <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
       <component name="PropertiesComponent">
         <property name="project.structure.last.edited" value="Project" />
-        <property name="project.structure.proportion" value="0.0" />
+        <property name="project.structure.proportion" value="0.15" />
         <property name="project.structure.side.proportion" value="0.0" />
         <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
         <property name="last_opened_file_path" value="C:/java-development/min-git-2.15.1.2-64-bit/cmd/git.exe" />
@@ -178,6 +77,7 @@
           </state>
           <state key="JdkListConfigurable.UI">
             <settings>
+              <last-edited>1.8</last-edited>
               <splitter-proportions>
                 <option name="proportions">
                   <list>

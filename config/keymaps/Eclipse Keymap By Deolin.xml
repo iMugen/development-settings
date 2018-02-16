@@ -1,0 +1,25 @@
+<keymap version="1" name="Eclipse Keymap By Deolin" parent="Eclipse">
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl alt f6" />
+  </action>
+  <action id="Compare.LastVersion">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="CompileProject">
+    <keyboard-shortcut first-keystroke="alt f5" />
+  </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="ctrl alt f5" />
+  </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="SaveAll" />
+  <action id="ShowUsages" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="ctrl alt f7" />
+  </action>
+</keymap>

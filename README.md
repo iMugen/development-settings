@@ -1,30 +1,21 @@
 # intellij-idea-config
 
-这个项目是config文件夹的备份。其中存放了适合Deolin**自用**的IntelliJ IDEA配置，可用于Java开发环境的快速配置、还原。
+本项目是IntelliJ IDEA配置文件夹，用于分享与备份IntelliJ IDEA的配置。
 
-### IntelliJ IDEA
+### 快速开始
 
-	Version: 2017.3.1<br>
-	Build: 173.3942.27<br>
-	Released: December 12, 2017<br>
+- 编辑**`{idea-client}\bin\idea.properties`**，令**`idea.config.path`**指向本项目下的config文件夹。
 
-### 克隆地址
+ - 如果你的Java版本、Maven路径或Git路径与Deolin有所不同，可以结合配置流程自行修改相应的配置。
 
-	$ git clone https://github.com/spldeolin/intellij-idea-config.git
+ - 如果你只需要某个方面的配置，可以去config下找到相应的配置文件，拷贝到原本的配置文件夹中。
 
-### 使用方法
+- 启动IntelliJ IDEA。
 
-- 准备[JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)、[Maven](http://maven.apache.org/download.cgi)、[Maven配置](https://github.com/spldeolin/intellij-idea-config/blob/master/maven/settings.xml)、[Git](https://github.com/git-for-windows/git/releases)等
+### 配置流程
 
-- 用config文件夹替换掉原有的`%idea.config.path%`文件夹
-
-### 配置流程文档
-
-- [新环境中使用IDEA](https://github.com/spldeolin/intellij-idea-config/blob/master/doc/%E6%96%B0%E7%8E%AF%E5%A2%83%E4%B8%AD%E4%BD%BF%E7%94%A8IDEA.md)
-- [功能集成](https://github.com/spldeolin/intellij-idea-config/blob/master/doc/%e5%8a%9f%e8%83%bd%e9%9b%86%e6%88%90.md)
-- [开发习惯](https://github.com/spldeolin/intellij-idea-config/blob/master/doc/%e5%bc%80%e5%8f%91%e4%b9%a0%e6%83%af.md)
-- [样式](https://github.com/spldeolin/intellij-idea-config/blob/master/doc/%e6%a0%b7%e5%bc%8f.md)
+- 详细参考[DJR](http://spldeolin.com/post/207)。
 
 ---
 
-*Deolin 20:04:18 Dec 20,2017* 
+*Deolin 09:51 Feb 16,2018* 

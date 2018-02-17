@@ -3,7 +3,7 @@
     <property name="created">2017-11-18T11:07:10</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.6.0.0</property>
-    <property name="modified">2017-11-18T11:08:16</property>
+    <property name="modified">2018-02-17T08:30:00</property>
     <property name="originalScheme">Ladies Night 2 ++</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
@@ -515,6 +515,15 @@
     <option name="Instance property reference ID">
       <value>
         <option name="FOREGROUND" value="9876aa" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value />
+    </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="ecba61" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">

@@ -4,12 +4,10 @@
     <property name="created">2017-11-18T11:07:01</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.6.0.0</property>
-    <property name="modified">2017-11-25T13:20:35</property>
+    <property name="modified">2018-02-17T08:31:13</property>
     <property name="originalScheme">Default ++</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
-  <option name="EDITOR_FONT_SIZE" value="18" />
-  <option name="EDITOR_FONT_NAME" value="YaHei Consolas Hybrid" />
   <colors>
     <option name="CARET_ROW_COLOR" value="e8f2fe" />
     <option name="INDENT_GUIDE" value="ffffff" />
@@ -161,6 +159,15 @@
     <option name="JAVA_KEYWORD">
       <value>
         <option name="FOREGROUND" value="7f0055" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value />
+    </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="c0" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>

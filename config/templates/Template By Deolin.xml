@@ -59,9 +59,14 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="a" value="@Autowired&#10;private $VAR$ $v$;&#10;&#10;$END$" description="@Autowired" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="a" value="@Autowired&#10;private $VAR$ $v$;&#10;&#10;$END$" description="Autowired注入" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="v" expression="decapitalize(VAR)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="lb" value="import lombok.EqualsAndHashCode;&#10;import lombok.Getter;&#10;import lombok.NoArgsConstructor;&#10;import lombok.Setter;&#10;import lombok.ToString;&#10;&#10;@Getter&#10;@Setter&#10;@ToString&#10;@EqualsAndHashCode&#10;@NoArgsConstructor" description="DTO、Model的类级别Lombok注解" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>

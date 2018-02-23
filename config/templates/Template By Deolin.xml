@@ -4,12 +4,6 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="fi" value="for (int i = 0; i &lt; $VAR$; i++) {&#10;    $END$&#10;}" description="for (int i = 0; i &lt; users.size(); i++) {}" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
   <template name="main" value="public static void main(String[] args) {&#10;    $END$&#10;}" description="public static void main" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
@@ -67,6 +61,26 @@
     </context>
   </template>
   <template name="lb" value="import lombok.EqualsAndHashCode;&#10;import lombok.Getter;&#10;import lombok.NoArgsConstructor;&#10;import lombok.Setter;&#10;import lombok.ToString;&#10;&#10;@Getter&#10;@Setter&#10;@ToString&#10;@EqualsAndHashCode&#10;@NoArgsConstructor" description="DTO、Model的类级别Lombok注解" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ps" value="private String " description="private String" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pi" value="private Integer " description="private Integer" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="fs" value="public static final String " description="public static final String" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="fi" value="public static final Integer " description="public static final Integer" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>

@@ -24,6 +24,9 @@
   <JavaCodeStyleSettings>
     <option name="SPACE_AFTER_CLOSING_ANGLE_BRACKET_IN_TYPE_ARGUMENT" value="true" />
   </JavaCodeStyleSettings>
+  <XML>
+    <option name="XML_ALIGN_ATTRIBUTES" value="false" />
+  </XML>
   <codeStyleSettings language="JAVA">
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="0" />
     <option name="BLANK_LINES_AROUND_FIELD" value="1" />

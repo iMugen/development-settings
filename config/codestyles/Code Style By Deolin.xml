@@ -12,6 +12,7 @@
       <package name="" withSubpackages="true" static="false" />
     </value>
   </option>
+  <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
   <option name="JD_ALIGN_PARAM_COMMENTS" value="false" />
   <option name="JD_ALIGN_EXCEPTION_COMMENTS" value="false" />
   <option name="JD_USE_THROWS_NOT_EXCEPTION" value="false" />
@@ -34,5 +35,10 @@
     <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="SPACE_BEFORE_ARRAY_INITIALIZER_LBRACE" value="true" />
+    <option name="METHOD_PARAMETERS_WRAP" value="1" />
+    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_SIMPLE_LAMBDAS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_SIMPLE_CLASSES_IN_ONE_LINE" value="true" />
   </codeStyleSettings>
 </code_scheme>

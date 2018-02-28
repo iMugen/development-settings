@@ -9,7 +9,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="l" value="List&lt;$VAR$&gt; $V$ = new ArrayList&lt;&gt;();&#10;$END$" description="List" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="l" value="List&lt;$VAR$&gt; $V$s = new ArrayList&lt;&gt;();&#10;$END$" description="List" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="V" expression="decapitalize(VAR)&#9;" defaultValue="" alwaysStopAt="false" />
     <context>

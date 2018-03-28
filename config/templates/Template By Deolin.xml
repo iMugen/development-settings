@@ -4,83 +4,89 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="main" value="public static void main(String[] args) {&#10;    $END$&#10;}" description="public static void main" toReformat="true" toShortenFQNames="true">
+  <template name="main" value="public static void main(String[] args) {&#10;    $END$&#10;    System.out.println(&quot;临时测试&quot;);&#10;}" description="public static void main" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="l" value="List&lt;$VAR$&gt; $V$s = new ArrayList&lt;&gt;();&#10;$END$" description="List" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="l" value="List&lt;$VAR$&gt; $V$s = new ArrayList&lt;&gt;();" description="List" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="V" expression="decapitalize(VAR)&#9;" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="sb" value="StringBuilder sb = new StringBuilder(400);&#10;$END$" description="StringBuilder" toReformat="true" toShortenFQNames="true">
+  <template name="sb" value="StringBuilder sb = new StringBuilder(400);" description="StringBuilder" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="m" value="Map&lt;String, $VAR1$&gt; $VAR2$ = new HashMap&lt;&gt;();&#10;$END$" description="Map" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="m" value="Map&lt;String, $VAR1$&gt; $VAR2$ = new HashMap&lt;&gt;();" description="Map" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="it" value="if ($VAR1$) {&#10;    throw new ServiceException(&quot;$VAR2$&quot;);&#10;}&#10;$END$" description="if () {throw new ServiceException(&quot;&quot;);}" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="t" value="throw new ServiceException($END$);" description="throw new ServiceException()" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="sa" value="sb.append($VAR1$);&#10;$END$" description="sb.append()" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="i" value="log.info($VAR$);" description="log.info" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="v" value="&quot;$VAR$&quot;" description="粘贴为字符串，转义" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="escapeString(clipboard()）" defaultValue="" alwaysStopAt="false" />
+  <template name="ver" value="private static final long serialVerisionUID = 1L;" description="serialVerisionUID = 1L" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ser" value=" implements Serializable " description="implements Serializable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_DECLARATION" value="false" />
+    </context>
+  </template>
+  <template name="o" value="Optional.ofNullable($END$).orElseThrow(() -&gt; new ServiceException(&quot;不存在或是已被删除&quot;));" description="Optional，抛异常" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="dt" value="yyyy-MM-dd HH:mm:ss" description="yyyy-MM-dd HH:mm:ss" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="i" value="log.info($VAR$);&#10;$END$" description="log.info" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="dtd" value="yyyy-MM-dd" description="yyyy-MM-dd" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="a" value="@Autowired&#10;private $VAR$ $v$;&#10;&#10;$END$" description="Autowired注入" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="v" expression="decapitalize(VAR)" defaultValue="" alwaysStopAt="false" />
+  <template name="dtt" value="HH:mm:ss" description="HH:mm:ss" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="lb" value="import lombok.EqualsAndHashCode;&#10;import lombok.Getter;&#10;import lombok.NoArgsConstructor;&#10;import lombok.Setter;&#10;import lombok.ToString;&#10;&#10;@Getter&#10;@Setter&#10;@ToString&#10;@EqualsAndHashCode&#10;@NoArgsConstructor" description="DTO、Model的类级别Lombok注解" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
-  <template name="ps" value="private String " description="private String" toReformat="true" toShortenFQNames="true">
+  <template name="av" value="@Value(&quot;${$VAR1$}&quot;)&#10;private String $VAR2$;" description="@Value 引入配置" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="camelCase(VAR1)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="pi" value="private Integer " description="private Integer" toReformat="true" toShortenFQNames="true">
+  <template name="aa" value="@Autowired&#10;private $VAR1$ $VAR2$;" description="@Autowired" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="decapitalize(VAR1)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="fs" value="public static final String " description="public static final String" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
-  <template name="fi" value="public static final Integer " description="public static final Integer" toReformat="false" toShortenFQNames="true">
+  <template name="ar" value="@Reference&#10;private $VAR1$ $VAR2$;" description="@Reference" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="decapitalize(VAR1)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>

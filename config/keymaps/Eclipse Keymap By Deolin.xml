@@ -2,6 +2,10 @@
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="ctrl alt f6" />
   </action>
+  <action id="CloseActiveTab" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="Compare.LastVersion">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>

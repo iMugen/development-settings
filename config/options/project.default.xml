@@ -17,8 +17,8 @@
       <component name="MavenImportPreferences">
         <option name="generalSettings">
           <MavenGeneralSettings>
-            <option name="mavenHome" value="C:/java-development/apache-maven-3.5.2" />
-            <option name="userSettingsFile" value="C:\java-development\apache-maven-3.5.2\conf\settings.xml" />
+            <option name="mavenHome" value="C:/java-development/apache-maven-3.5.3" />
+            <option name="userSettingsFile" value="C:\java-development\apache-maven-3.5.3\conf\settings.xml" />
           </MavenGeneralSettings>
         </option>
         <option name="importingSettings">

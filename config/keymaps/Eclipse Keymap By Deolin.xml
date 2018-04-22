@@ -15,6 +15,9 @@
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
+  <action id="Git.Commit.And.Push.Executor">
+    <keyboard-shortcut first-keystroke="ctrl alt f7" />
+  </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="ctrl alt f5" />
   </action>

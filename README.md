@@ -14,7 +14,7 @@
 
 ### 配置流程
 
-- 详细参考[DJR](http://spldeolin.com/post/207)。
+- [详细参考](http://spldeolin.com/posts/intellij-idea/)。
 
 ---
 

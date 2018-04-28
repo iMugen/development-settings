@@ -47,6 +47,7 @@
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="JAVA">
+    <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="0" />
     <option name="BLANK_LINES_AROUND_FIELD" value="1" />
     <option name="BLANK_LINES_AROUND_FIELD_IN_INTERFACE" value="1" />

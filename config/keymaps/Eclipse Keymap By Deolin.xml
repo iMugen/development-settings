@@ -9,6 +9,9 @@
   <action id="Compare.LastVersion">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="CompileProject">
     <keyboard-shortcut first-keystroke="alt f5" />
   </action>
@@ -21,9 +24,7 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="ctrl alt f5" />
   </action>
-  <action id="Rerun">
-    <keyboard-shortcut first-keystroke="ctrl s" />
-  </action>
+  <action id="Rerun" />
   <action id="SaveAll" />
   <action id="ShowUsages" />
   <action id="Vcs.Push">

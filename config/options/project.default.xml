@@ -1,15 +1,13 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="CodeInsightWorkspaceSettings">
-        <option name="optimizeImportsOnTheFly" value="true" />
-      </component>
       <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
         <file url="PROJECT" charset="UTF-8" />
       </component>
+      <component name="Git.Settings">
+        <option name="ROOT_SYNC" value="DONT_SYNC" />
+      </component>
       <component name="InspectionProjectProfileManager">
-        <option name="projectProfile" value="Inspection By Deolin" />
-        <option name="useProjectProfile" value="false" />
         <option name="PROJECT_PROFILE" value="Inspection By Deolin" />
         <option name="USE_PROJECT_PROFILE" value="false" />
         <version value="1.0" />
@@ -32,32 +30,15 @@
       <component name="MavenRunner">
         <option name="skipTests" value="true" />
       </component>
-      <component name="ProjectDictionaryState">
-        <dictionary name="splen" />
-      </component>
-      <component name="ProjectInspectionProfilesVisibleTreeState">
-        <entry key="Project Default">
-          <profile-state>
-            <expanded-state>
-              <State>
-                <id />
-              </State>
-            </expanded-state>
-            <selected-state>
-              <State>
-                <id>AngularJS</id>
-              </State>
-            </selected-state>
-          </profile-state>
-        </entry>
-      </component>
       <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
       <component name="PropertiesComponent">
+        <property name="last_opened_file_path" value="C:/java-development/min-git-2.17.0-64-bit/cmd/git.exe" />
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
         <property name="project.structure.last.edited" value="Project" />
-        <property name="project.structure.proportion" value="0.15" />
+        <property name="project.structure.proportion" value="0.0" />
         <property name="project.structure.side.proportion" value="0.0" />
         <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-        <property name="last_opened_file_path" value="C:/java-development/min-git-2.15.1.2-64-bit/cmd/git.exe" />
       </component>
       <component name="VcsContentAnnotationSettings">
         <option name="myLimit" value="2678400000" />
@@ -77,7 +58,6 @@
           </state>
           <state key="JdkListConfigurable.UI">
             <settings>
-              <last-edited>1.8</last-edited>
               <splitter-proportions>
                 <option name="proportions">
                   <list>

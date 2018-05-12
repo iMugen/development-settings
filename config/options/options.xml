@@ -1,12 +1,14 @@
 <application>
   <component name="PropertiesComponent">
-    <property name="installed.kotlin.plugin.version" value="1.1.4-release-IJ2017.2-3" />
-    <property name="ignore.ide.set.hidpi.mode" value="true" />
-    <property name="file.chooser.recent.files" value="C:/java-development/apache-maven-3.5.3/conf/settings.xml&#10;C:/java-development/apache-maven-3.5.3&#10;C:/java-development/min-git-2.15.1.2-64-bit/cmd/git.exe&#10;C:/Program Files/Java/jdk1.8.0_172" />
-    <property name="typescript.show.auto.import" value="true" />
-    <property name="es6.show.auto.import" value="true" />
-    <property name="fileTypeChangedCounter" value="2" />
-    <property name="PLUGIN_FILTER" value="lom" />
+    <property name="Darcula.savedEditorTheme" value="spldark" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
     <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="MTBoldTabs" value="false" />
+    <property name="MTBorderPopup" value="true" />
+    <property name="MTTabsHeight" value="42" />
+    <property name="android-component-compatibility-check" value="1526082736755" />
+    <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="OCEANIC" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Desktop/IDEA配置备份/UI配置增量.jar" />
+    <property name="installed.kotlin.plugin.version" value="1.2.31-release-IJ2018.1-1" />
   </component>
 </application>

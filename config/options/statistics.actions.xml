@@ -1,9 +1,0 @@
-<application>
-  <component name="ActionsCollector">
-    <counts>
-      <entry action="$SelectAll" count="1" />
-      <entry action="EditorBackSpace" count="3" />
-      <entry action="EditorPaste" count="4" />
-    </counts>
-  </component>
-</application>

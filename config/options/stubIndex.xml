@@ -2,17 +2,15 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
-        <option value="java.module.name" />
-        <option value="java.class.fqn" />
-        <option value="java.class.shortname" />
-        <option value="java.method.parameter.types" />
-        <option value="java.anonymous.baseref" />
-        <option value="jvm.static.member.type" />
         <option value="jvm.static.member.name" />
         <option value="java.method.name" />
         <option value="java.field.name" />
         <option value="java.class.extlist" />
         <option value="java.annotations" />
+        <option value="markdown.header" />
+        <option value="js.doc.modules" />
+        <option value="ts.local.classes" />
+        <option value="es6.exported.index" />
         <option value="Stylus.mixins" />
         <option value="Stylus.variables" />
         <option value="Scss.mixin" />
@@ -69,7 +67,6 @@
         <option value="angularjs.symbol.index" />
         <option value="angularjs.filter.index" />
         <option value="angularjs.module.index" />
-        <option value="angularjs.decorators.index" />
         <option value="angularjs.controller.index" />
         <option value="angularjs.directives.doc.index" />
         <option value="angularjs.directives.index" />
@@ -105,6 +102,12 @@
         <option value="Css.ampersand.selector" />
         <option value="dom.elementClass" />
         <option value="dom.namespaceKey" />
+        <option value="java.module.name" />
+        <option value="java.class.fqn" />
+        <option value="java.class.shortname" />
+        <option value="java.method.parameter.types" />
+        <option value="java.anonymous.baseref" />
+        <option value="jvm.static.member.type" />
       </list>
     </option>
   </component>

@@ -1,7 +1,6 @@
 /*
  * Created by IntelliJ IDEA File Templates.
  */
-
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
 
@@ -19,8 +18,10 @@
 #end
 
 import java.io.Serializable;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
@@ -29,6 +30,8 @@ import lombok.experimental.Accessors;
 #end * @author $USER $YEAR/$MONTH/$DAY
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Builder
 @Accessors(chain = true)
 public class $validName implements Serializable {

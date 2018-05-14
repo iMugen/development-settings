@@ -7,23 +7,20 @@
 ## 确保NAME首字母大写
 #set ($validName = $NAME.substring(0, 1).toUpperCase() + $NAME.substring(1))
 ## 
-## 确保以NAME以Mapper结尾
-#if (!$validName.endsWith("Mapper"))
-    #set ($validName = $validName + "Mapper")
+## 确保以NAME以Service结尾
+#if (!$validName.endsWith("Service"))
+    #set ($validName = $validName + "Service")
 #else
     #set ($validName = $validName)
 #end
 ## Model名称
-#set ($modelName = $validName.replace("Mapper", ""))
+#set ($modelName = $validName.replace("Service", ""))
 #set ($lowerModelName = $modelName.substring(0, 1).toLowerCase() + $modelName.substring(1))
-
-import org.apache.ibatis.annotations.Mapper;
 
 /**
 #if ($Description != "") * $Description
  *
 #end * @author $USER $YEAR/$MONTH/$DAY
  */
-@Mapper
-public interface $validName extends CommonMapper<$modelName> {
+public interface $validName extends CommonService<$modelName> {
 }

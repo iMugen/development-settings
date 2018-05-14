@@ -1,7 +1,6 @@
 /*
  * Created by IntelliJ IDEA File Templates.
  */
-
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
 
@@ -24,6 +23,7 @@
 
 import java.util.List;
 import javax.validation.Valid;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -42,6 +42,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("$classMapping")
+@Validated
 public class $validName {
 
     // @Autowired

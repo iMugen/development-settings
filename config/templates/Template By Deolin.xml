@@ -9,9 +9,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="l" value="List&lt;$VAR$&gt; $V$s = new ArrayList&lt;&gt;();" description="List" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="V" expression="decapitalize(VAR)&#9;" defaultValue="" alwaysStopAt="false" />
+  <template name="l" value=" = new ArrayList&lt;&gt;();" description="List" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
@@ -21,9 +19,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="m" value="Map&lt;String, $VAR1$&gt; $VAR2$ = new HashMap&lt;&gt;();" description="Map" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="m" value=" = new HashMap&lt;&gt;();" description="Map" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
@@ -50,7 +46,7 @@
       <option name="JAVA_DECLARATION" value="false" />
     </context>
   </template>
-  <template name="o" value="Optional.ofNullable($END$).orElseThrow(() -&gt; new ServiceException(&quot;不存在或是已被删除&quot;));" description="Optional，抛异常" toReformat="true" toShortenFQNames="true">
+  <template name="o" value=".orElseThrow(() -&gt; new ServiceException(&quot;$END$不存在或是已被删除&quot;));" description="Optional，抛异常" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
@@ -87,6 +83,22 @@
   <template name="ar" value="@Reference&#10;private $VAR1$ $VAR2$;" description="@Reference" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR2" expression="decapitalize(VAR1)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pr" value="private static final String " description="private static final String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pu" value="public static final String " description="public static final String" toReformat="false" toShortenFQNames="true" />
+  <template name="ii" value="private Integer $END$;&#10;" description="private Integer ;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="s" value="private String $END$;&#10;" description="private String ;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>

@@ -103,4 +103,9 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="pg" value="@RequestParam(defaultValue = &quot;1&quot;) int pageNo, @RequestParam(defaultValue = &quot;10&quot;) @Max(1000) int pageSize" description="int PageNo, int PageSize" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>

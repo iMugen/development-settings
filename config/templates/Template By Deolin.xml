@@ -108,4 +108,14 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="ag" value="@GetMapping(&quot;/$END$&quot;)&#10;Object get() {&#10;&#10;    return null;&#10;}" description="@GetMapping" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ap" value="@PostMapping(&quot;/$END$&quot;)&#10;Object post() {&#10;    &#10;    return null;&#10;}" description="@PostMapping" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -1,6 +1,7 @@
 /*
  * Created by IntelliJ IDEA File Templates.
  */
+
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
 
@@ -23,9 +24,9 @@ import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j2;
 
 /**
-#if ($Description != "") * $Description
+ * 
  *
-#end * @author $USER $YEAR/$MONTH/$DAY
+ * @author Deolin $YEAR/$MONTH/$DAY
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -1,6 +1,7 @@
 /*
  * Created by IntelliJ IDEA File Templates.
  */
+
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
 
@@ -20,9 +21,9 @@
 import org.apache.ibatis.annotations.Mapper;
 
 /**
-#if ($Description != "") * $Description
+ * 
  *
-#end * @author $USER $YEAR/$MONTH/$DAY
+ * @author Deolin $YEAR/$MONTH/$DAY
  */
 @Mapper
 public interface $validName extends CommonMapper<$modelName> {

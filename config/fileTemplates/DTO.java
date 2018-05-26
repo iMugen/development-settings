@@ -1,6 +1,7 @@
 /*
  * Created by IntelliJ IDEA File Templates.
  */
+
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
 
@@ -25,9 +26,9 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
-#if ($Description != "") * $Description
+ * 
  *
-#end * @author $USER $YEAR/$MONTH/$DAY
+ * @author Deolin $YEAR/$MONTH/$DAY
  */
 @Data
 @NoArgsConstructor

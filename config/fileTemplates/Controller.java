@@ -1,6 +1,7 @@
 /*
  * Created by IntelliJ IDEA File Templates.
  */
+
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
 
@@ -21,74 +22,36 @@
 #set( $replacement = "_$1")
 #set( $classMapping = $modelName.replaceAll($regex, $replacement).toLowerCase().substring(1))
 
-import java.util.List;
 import javax.validation.Valid;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
-#if ($Description != "") * $Description
+ * 
  *
-#end * @author $USER $YEAR/$MONTH/$DAY
+ * @author Deolin $YEAR/$MONTH/$DAY
  */
 @RestController
-@RequestMapping("$classMapping")
+@RequestMapping("/$lowerModelName")
 @Validated
 public class $validName {
 
     // @Autowired
     // private ${modelName}Service ${lowerModelName}Service;
 
-    /**
-     * 
-     */
-    @PostMapping("/")
-    public RequestResult create(@RequestBody @Valid Void input) {
+    @PostMapping("/create")
+    Object create(@RequestBody @Valid Void input) {
         
-        return RequestResult.success();
+        return null;
     }
 
-    /**
-     * 
-     */
-    @GetMapping("/{id}")
-    public RequestResult get(@PathVariable Long id) {
-        return RequestResult.success();
-    }
-
-    /**
-     * 
-     */
-    @PutMapping("/{id}")
-    public RequestResult update(@PathVariable Long id, @RequestBody @Valid Void input) {
-        
-        return RequestResult.success();
-    }
-
-    /**
-     * 
-     */
-    @DeleteMapping("/{id}")
-    public RequestResult delete(@PathVariable Long id) {
-        
-        return RequestResult.success();
-    }
-
-    /**
-     * 
-     */
-    @GetMapping("/")
-    public RequestResult page(Integer pageNo, Integer pageSize) {
-        return RequestResult.success();
+    @GetMapping("/get")
+    Object get() {
+		return null;
     }
 
 }

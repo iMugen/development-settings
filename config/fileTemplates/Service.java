@@ -1,6 +1,7 @@
 /*
  * Created by IntelliJ IDEA File Templates.
  */
+
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
 
@@ -18,9 +19,9 @@
 #set ($lowerModelName = $modelName.substring(0, 1).toLowerCase() + $modelName.substring(1))
 
 /**
-#if ($Description != "") * $Description
+ * 
  *
-#end * @author $USER $YEAR/$MONTH/$DAY
+ * @author Deolin $YEAR/$MONTH/$DAY
  */
 public interface $validName extends CommonService<$modelName> {
 }

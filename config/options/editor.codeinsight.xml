@@ -2,6 +2,10 @@
   <component name="CodeInsightSettings">
     <option name="ADD_IMPORTS_ON_PASTE" value="1" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+    <EXCLUDED_PACKAGE NAME="com.beust.jcommander.internal.Lists" />
+    <EXCLUDED_PACKAGE NAME="com.sun.javafx.collections.MappingChange.Map" />
+    <EXCLUDED_PACKAGE NAME="com.sun.tools.javac.util.List" />
+    <EXCLUDED_PACKAGE NAME="com.sun.xml.internal.xsom.impl.scd.Iterators.Map" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Inspection By Deolin">
     <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="20" />

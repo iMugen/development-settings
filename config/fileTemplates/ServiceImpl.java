@@ -24,13 +24,13 @@ import lombok.extern.log4j.Log4j2;
 /**
  * 
  *
- * @author Deolin $YEAR/$MONTH/$DAY
+ * @author $USER $YEAR/$MONTH/$DAY
  */
 @Service
 @Log4j2
 public class $validName extends CommonServiceImpl<$modelName> implements ${modelName}Service {
 
-	// @Autowired
-	// private ${modelName}Mapper ${lowerModelName}Mapper;
+    // @Autowired
+    // private ${modelName}Mapper ${lowerModelName}Mapper;
 
 }

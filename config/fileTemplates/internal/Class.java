@@ -6,6 +6,7 @@
  *
  * @author $USER $YEAR/$MONTH/$DAY
  */
+ @Log4j2
 public class ${NAME} {
 
     

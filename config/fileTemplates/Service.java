@@ -21,7 +21,7 @@
 /**
  * 
  *
- * @author Deolin $YEAR/$MONTH/$DAY
+ * @author $USER $YEAR/$MONTH/$DAY
  */
 public interface $validName extends CommonService<$modelName> {
 }

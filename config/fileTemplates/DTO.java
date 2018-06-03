@@ -28,7 +28,7 @@ import lombok.experimental.Accessors;
 /**
  * 
  *
- * @author Deolin $YEAR/$MONTH/$DAY
+ * @author $USER $YEAR/$MONTH/$DAY
  */
 @Data
 @NoArgsConstructor

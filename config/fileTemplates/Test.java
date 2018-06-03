@@ -1,7 +1,7 @@
 /*
  * Created by IntelliJ IDEA File Templates.
  */
-
+ 
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
 
@@ -26,7 +26,7 @@ import lombok.extern.log4j.Log4j2;
 /**
  * 
  *
- * @author Deolin $YEAR/$MONTH/$DAY
+ * @author $USER $YEAR/$MONTH/$DAY
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -34,11 +34,11 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class $validName {
 
-	@Test
-	@SneakyThrows
+    @Test
+    @SneakyThrows
     public void test() {
-		
-		log.info("结束");
-	}
+        
+        log.info("结束");
+    }
 
 }

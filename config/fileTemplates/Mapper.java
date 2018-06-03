@@ -23,7 +23,7 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * 
  *
- * @author Deolin $YEAR/$MONTH/$DAY
+ * @author $USER $YEAR/$MONTH/$DAY
  */
 @Mapper
 public interface $validName extends CommonMapper<$modelName> {

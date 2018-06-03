@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 
  *
- * @author Deolin $YEAR/$MONTH/$DAY
+ * @author $USER $YEAR/$MONTH/$DAY
  */
 @RestController
 @RequestMapping("/$lowerModelName")
@@ -51,7 +51,7 @@ public class $validName {
 
     @GetMapping("/get")
     Object get() {
-		return null;
+        return null;
     }
 
 }

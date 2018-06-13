@@ -9,7 +9,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="l" value=" = Lists.newArrayList($END$);" description="List" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="l" value="Lists.newArrayList($END$)" description="List" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
@@ -19,7 +19,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="m" value=" = new HashMap&lt;&gt;();" description="Map" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="m" value="Maps.newHashMap()" description="Map" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
@@ -91,7 +91,11 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="pu" value="public static final String " description="public static final String" toReformat="false" toShortenFQNames="true" />
+  <template name="pu" value="public static final String " description="public static final String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
   <template name="ii" value="private Integer $END$;&#10;" description="private Integer ;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
@@ -115,6 +119,16 @@
   <template name="ap" value="@PostMapping(&quot;/$END$&quot;)&#10;Object post() {&#10;    &#10;    return null;&#10;}" description="@PostMapping" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="il" value=".forEach(log::info);" description=".forEach(log::info);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tr" value="throw new RuntimeException(&quot;$END$&quot;);" description="throw RuntimeExcpetion" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>

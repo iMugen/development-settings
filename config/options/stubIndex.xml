@@ -2,14 +2,15 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
-        <option value="java.method.parameter.types" />
-        <option value="java.anonymous.baseref" />
-        <option value="jvm.static.member.type" />
         <option value="jvm.static.member.name" />
         <option value="java.method.name" />
         <option value="java.field.name" />
         <option value="java.class.extlist" />
         <option value="java.annotations" />
+        <option value="markdown.header" />
+        <option value="js.doc.modules" />
+        <option value="ts.local.classes" />
+        <option value="es6.exported.index" />
         <option value="Stylus.mixins" />
         <option value="Stylus.variables" />
         <option value="Scss.mixin" />
@@ -44,7 +45,6 @@
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex" />
-        <option value="markdown.header" />
         <option value="gr.anonymous.class" />
         <option value="gr.class.super" />
         <option value="gr.script.class" />
@@ -70,12 +70,9 @@
         <option value="angularjs.controller.index" />
         <option value="angularjs.directives.doc.index" />
         <option value="angularjs.directives.index" />
-        <option value="js.doc.modules" />
         <option value="js.gcl.modules" />
         <option value="js.nonglobal.symbol.index" />
-        <option value="ts.local.classes" />
         <option value="es6.assignment.index" />
-        <option value="es6.exported.index" />
         <option value="js.exported.index" />
         <option value="js.global.symbol.index" />
         <option value="amd.requirePaths.index" />
@@ -108,6 +105,9 @@
         <option value="java.module.name" />
         <option value="java.class.fqn" />
         <option value="java.class.shortname" />
+        <option value="java.method.parameter.types" />
+        <option value="java.anonymous.baseref" />
+        <option value="jvm.static.member.type" />
       </list>
     </option>
   </component>

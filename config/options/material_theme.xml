@@ -1,9 +1,5 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="version" value="2.4.0.3-2018.1" />
-    <option name="selectedTheme" value="PALENIGHT" />
-    <option name="highlightColor" value="80cbc4" />
-    <option name="accentColor" value="80cbc4" />
-    <option name="userId" value="-39f26483:16410957c1a:-8000" />
+    <option name="version" value="2.2.3" />
   </component>
 </application>

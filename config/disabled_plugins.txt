@@ -1,5 +1,6 @@
 AntSupport
 CVS
+ClearcasePlugin
 CloudBees
 CloudFoundry
 Coverage
@@ -20,7 +21,6 @@ StrutsAssistant
 Subversion
 TFS
 TestNG-J
-Tomcat
 WebSphere
 Weblogic
 com.intellij.aop

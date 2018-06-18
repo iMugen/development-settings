@@ -18,8 +18,12 @@
           </MavenImportingSettings>
         </option>
       </component>
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
       <component name="PropertiesComponent">
         <property name="last_opened_file_path" value="C:/java-development/min-git-2.17.1.2-64-bit/cmd/git.exe" />
+        <property name="project.structure.last.edited" value="Project" />
+        <property name="project.structure.proportion" value="0.0" />
+        <property name="project.structure.side.proportion" value="0.0" />
         <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
       </component>
     </defaultProject>

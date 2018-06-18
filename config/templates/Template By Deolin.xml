@@ -1,0 +1,143 @@
+<templateSet group="Template By Deolin">
+  <template name="p" value="System.out.println($END$);" description="System.out.println" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="main" value="public static void main(String[] args) {&#10;    $END$&#10;    log.info(&quot;SUCCESS&quot;);&#10;}" description="public static void main" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="l" value="Lists.newArrayList($END$)" description="List" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sb" value="StringBuilder sb = new StringBuilder(400);" description="StringBuilder" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="m" value="Maps.newHashMap()" description="Map" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="t" value="throw new ServiceException(&quot;$END$&quot;);" description="throw new ServiceException()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="i" value="log.info($END$);" description="log.info" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ver" value="private static final long serialVersionUID = 1L;" description="serialVersionUID = 1L" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ser" value=" implements Serializable " description="implements Serializable" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="o" value=".orElseThrow(() -&gt; new ServiceException(&quot;$END$不存在或是已被删除&quot;));" description="Optional，抛异常" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="dt" value="yyyy-MM-dd HH:mm:ss" description="yyyy-MM-dd HH:mm:ss" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="dtd" value="yyyy-MM-dd" description="yyyy-MM-dd" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="dtt" value="HH:mm:ss" description="HH:mm:ss" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="av" value="@Value(&quot;${$VAR1$}&quot;)&#10;private String $VAR2$;" description="@Value 引入配置" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="camelCase(VAR1)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="aa" value="@Autowired&#10;private $VAR1$ $VAR2$;" description="@Autowired" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="decapitalize(VAR1)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ar" value="@Reference&#10;private $VAR1$ $VAR2$;" description="@Reference" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="decapitalize(VAR1)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pr" value="private static final String " description="private static final String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pu" value="public static final String " description="public static final String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ii" value="private Integer $END$;&#10;" description="private Integer ;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="s" value="private String $END$;&#10;" description="private String ;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pg" value="@RequestParam(defaultValue = &quot;1&quot;) int pageNo, @RequestParam(defaultValue = &quot;10&quot;) @Max(1000) int pageSize" description="int PageNo, int PageSize" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ag" value="@GetMapping(&quot;/$END$&quot;)&#10;Object get() {&#10;&#10;    return null;&#10;}" description="@GetMapping" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ap" value="@PostMapping(&quot;/$END$&quot;)&#10;Object post() {&#10;    &#10;    return null;&#10;}" description="@PostMapping" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="il" value=".forEach(log::info);" description=".forEach(log::info);" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tr" value="throw new RuntimeException(&quot;$END$&quot;);" description="throw RuntimeExcpetion" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

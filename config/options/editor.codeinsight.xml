@@ -3,7 +3,7 @@
     <option name="ADD_IMPORTS_ON_PASTE" value="1" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings">
+  <component name="DaemonCodeAnalyzerSettings" profile="Inspection By Deolin">
     <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="20" />
   </component>
   <component name="JavaCodeFoldingSettings">

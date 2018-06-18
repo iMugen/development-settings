@@ -1,6 +1,14 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
+      <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="InspectionProjectProfileManager">
+        <option name="PROJECT_PROFILE" value="Inspection By Deolin" />
+        <option name="USE_PROJECT_PROFILE" value="false" />
+        <version value="1.0" />
+      </component>
       <component name="MavenImportPreferences">
         <option name="importingSettings">
           <MavenImportingSettings>
@@ -12,7 +20,7 @@
       </component>
       <component name="PropertiesComponent">
         <property name="last_opened_file_path" value="C:/java-development/min-git-2.17.1.2-64-bit/cmd/git.exe" />
-        <property name="settings.editor.selected.configurable" value="vcs.Git" />
+        <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
       </component>
     </defaultProject>
   </component>

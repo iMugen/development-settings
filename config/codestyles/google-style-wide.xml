@@ -22,6 +22,10 @@
     <value>
       <package name="" withSubpackages="true" static="true" />
       <emptyLine />
+      <package name="java" withSubpackages="true" static="false" />
+      <package name="javax" withSubpackages="true" static="false" />
+      <package name="org" withSubpackages="true" static="false" />
+      <package name="com" withSubpackages="true" static="false" />
       <package name="" withSubpackages="true" static="false" />
     </value>
   </option>

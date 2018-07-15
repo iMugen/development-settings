@@ -26,7 +26,7 @@ public class $validName {
 
     @Test
     @SneakyThrows
-    public void test() {
+    public void t() {
         //
         log.info("结束");
     }

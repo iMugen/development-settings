@@ -1,8 +1,7 @@
-/*
- * Created by IntelliJ IDEA File Templates.
- */
-
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 #parse("File Header.java")
 
 ## 确保NAME首字母大写
@@ -22,36 +21,11 @@
 #set( $replacement = "_$1")
 #set( $classMapping = $modelName.replaceAll($regex, $replacement).toLowerCase().substring(1))
 
-import javax.validation.Valid;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-/**
- * 
- *
- * @author $USER $YEAR/$MONTH/$DAY
- */
 @RestController
 @RequestMapping("/$lowerModelName")
 @Validated
 public class $validName {
 
-    // @Autowired
-    // private ${modelName}Service ${lowerModelName}Service;
-
-    @PostMapping("/create")
-    Object create(@RequestBody @Valid Void input) {
-        
-        return null;
-    }
-
-    @GetMapping("/get")
-    Object get() {
-        return null;
-    }
+	//
 
 }

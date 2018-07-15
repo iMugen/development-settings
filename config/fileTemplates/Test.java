@@ -1,8 +1,11 @@
-/*
- * Created by IntelliJ IDEA File Templates.
- */
- 
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.context.junit4.SpringRunner;
+import lombok.SneakyThrows;
+import lombok.extern.log4j.Log4j2;
 #parse("File Header.java")
 
 ## 确保NAME首字母大写
@@ -15,19 +18,6 @@
     #set ($validName = $validName)
 #end
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ActiveProfiles;
-import org.springframework.test.context.junit4.SpringRunner;
-import lombok.SneakyThrows;
-import lombok.extern.log4j.Log4j2;
-
-/**
- * 
- *
- * @author $USER $YEAR/$MONTH/$DAY
- */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @ActiveProfiles("dev")
@@ -37,7 +27,7 @@ public class $validName {
     @Test
     @SneakyThrows
     public void test() {
-        
+        //
         log.info("结束");
     }
 

@@ -1,7 +1,0 @@
-<application>
-  <component name="DimensionService">
-    <location key="FileChooserDialogImpl.0.0.1920.1080" x="738" y="173" />
-    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="718" y="301" />
-    <location key="SettingsEditor.0.0.1920.1080" x="443" y="75" />
-  </component>
-</application>

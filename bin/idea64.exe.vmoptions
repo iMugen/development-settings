@@ -15,3 +15,5 @@
 -Djava.net.preferIPv4Stack=true
 -Djsse.enableSNIExtension=false
 -ea
+
+-javaagent:

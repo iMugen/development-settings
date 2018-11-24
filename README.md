@@ -1,21 +1,34 @@
-# intellij-idea-config
+# *java-development-config*
 
-本项目是IntelliJ IDEA配置文件夹，用于分享与备份IntelliJ IDEA的配置。
+本项目存放了Java开发环境下各类软件配置的备份，用于分享与备份各种配置。
 
-### 快速开始
 
-- 编辑**`{idea-client}\bin\idea.properties`**，令**`idea.config.path`**指向本项目下的config文件夹。
 
- - 如果你的Java版本、Maven路径或Git路径与Deolin有所不同，可以结合配置流程自行修改相应的配置。
+## 一览
 
- - 如果你只需要某个方面的配置，可以去config下找到相应的配置文件，拷贝到原本的配置文件夹中。
+- Intellij IDEA
+- Maven
+- Xshell
+- Notepad++
 
-- 启动IntelliJ IDEA。
 
-### 配置流程
 
-- [详细参考](http://spldeolin.com/posts/intellij-idea/)。
+## Intellij IDEA快速开始
+
+1.  配置`idea.properties`和`idea64.exe.vmoptions`
+2.  File | Import Settings ... | 选择`idea-settings.jar`
+3.  复制`plugins`与`disabled_plugins.txt`
+4.  如果你只需要某个方面的配置，可以去config下找到相应的配置文件，拷贝到原本的配置文件夹中。
+5.  启动IntelliJ IDEA
+
+
+
+## Notepad++快速开始
+
+全部复制到`%APPDATA%\Notepad++`
+
+
 
 ---
 
-*Deolin 09:51 Feb 16,2018* 
+*Deolin 13:25 Nov 24,2018* 

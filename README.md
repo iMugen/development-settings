@@ -1,15 +1,17 @@
-# *java-development-config*
+# *development-settings*
 
-本项目存放了Java开发环境下各类软件配置的备份，用于分享与备份各种配置。
+本仓库存放了各类用于开发软件的设置。
 
 
 
 ## 一览
 
-- Intellij IDEA
-- Maven
-- Xshell
-- Notepad++
+- Windows字体
+- Intellij IDEA配置与插件
+- Java环境变量
+- Maven全局配置
+- Notepad++配置
+- Xshell主题样式
 
 
 
@@ -31,4 +33,4 @@
 
 ---
 
-*Deolin 13:25 Nov 24,2018* 
+*Deolin 08:07 Jan 13, 2019* 

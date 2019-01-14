@@ -12,6 +12,7 @@
 - Maven全局配置
 - Notepad++配置
 - Xshell主题样式
+- XYplorer配置
 
 
 

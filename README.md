@@ -6,7 +6,6 @@
 
 ## 一览
 
-- Windows字体
 - Intellij IDEA配置与插件
 - Java环境变量
 - Maven全局配置
@@ -34,4 +33,4 @@
 
 ---
 
-*Deolin 08:07 Jan 13, 2019* 
+*Deolin 11:24 Jan 16, 2019* 
